@@ -7,11 +7,17 @@ mkdir - makes a new directory and you can name it
 my computer terminal is in bash... ?
 
 2. Do you have pets? What kind?
+
 yes! i have two dogs they are golden retrievers. i also have 3 chickens i forgot what kind they are...
+
 3. If you run across an error, what would your first course of action be?
+
+if i ran across an error, my first course of action would be to retrace my steps and see if i can figure out what i did wrong. if not, then i guess i would ask someone for help
 
 4. Funniest thing that happened to you in high school.
 
+found out one of my friends was a mass squirrel murderer in a really fucked up and psychopathic way ......... 
+
 5. What is a python script? (Keep it simple)
 
-
+a python script is a file ending in .py that you can run in your command line
