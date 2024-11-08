@@ -28,18 +28,82 @@ print(secondnumberList)
 
 #question 2.3
 
-def slicedList(someList):
+def slicedList(list):
     slicing = slice(15)
-    print(someList[slicing])
+    print(list[slicing])
 
 slicedList(secondnumberList)
 
 #question 2.4
 
-def stridedList(aList):
-    print(aList[4::5])
+def stridedList(list):
+    print(list[4::5])
 
 stridedList(secondnumberList)
 
 #question 2.5
 
+def negativelist(list):
+    print(list[::-3])
+
+negativelist(secondnumberList)
+
+#question 3.1
+
+matrixlist = []
+list1 = []
+list2 = []
+list3 = []
+list4 = []
+list5 = []
+list2D = []
+def create_2D_list(list):
+    a = 1
+    while a < 26:
+        list.append(a)
+        a+=1
+    for number in list[0:5]:
+        list1.append(number)
+    for number in list[5:10]:
+        list2.append(number)
+    for number in list[10:15]:
+        list3.append(number)
+    for number in list[15:20]:
+        list4.append(number)
+    for number in list[20:25]:
+        list5.append(number)
+    list2D.append(list1)
+    list2D.append(list2)
+    list2D.append(list3)
+    list2D.append(list4)
+    list2D.append(list5)
+    print(list2D)
+create_2D_list(matrixlist)
+
+#question 3.2
+
+print(list2D)
+def questionreplace(list):
+    for numberedlist in list:
+        for index in range(len(numberedlist)):
+            a = numberedlist[index]%3
+            if a == 0:
+                numberedlist[index] = "?"
+    print(list)
+                
+questionreplace(list2D)
+
+#question 3.3
+'''
+emptysumlist = []
+questionlist = questionreplace(list2D)
+print(questionlist)
+
+def sumlist(list):
+    for minilist in list:
+        for number in minilist:
+            if number != "?":
+                emptysumlist.append(number)
+    sum(emptysumlist)
+sumlist(questionlist)
+'''
