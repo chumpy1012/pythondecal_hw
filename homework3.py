@@ -77,13 +77,12 @@ def vowel_and_consonant_count(text):
     for letter in text:
         if letter.isalpha() == True:
             print(letter)
-            for consonant in consonants:
-                if letter == consonant:
-                    a += 1
-                else:
-                    b += 1
-        else:
-            b -= 1
+            if letter :
+                a += 1
+            else:
+                b += 1
     vowel_and_consonant_tuple = (a,b) 
     print(vowel_and_consonant_tuple)
 vowel_and_consonant_count(text)
+
+#question 8

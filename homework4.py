@@ -82,7 +82,6 @@ create_2D_list(matrixlist)
 
 #question 3.2
 
-print(list2D)
 def questionreplace(list):
     for numberedlist in list:
         for index in range(len(numberedlist)):
